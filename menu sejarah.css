@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Patua One', cursive;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.garis_biru {
+    background-color: lightskyblue;
+}
+
+nav.garis_biru .navigasi_atas a{
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    padding-left: 30px;
+    display: inline-flex;
+    justify-content: right;
+}
+
+nav.garis_biru .navigasi_atas a:hover{
+    background-color:#fff;
+    color: rgb(18, 175, 236);
+}
+nav.garis_biru .search-form{
+    height: 10px;
+    width:300px;
+    padding: 3px;
+    float: right;
+    padding-left: 20px;
+    display: inline-block;
+}
+.search{
+    padding:8px 15px;
+    background:#fff;
+    padding:6px 15px;
+    border:0px solid lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgrey;
+}
+.button{
+    position:relative;
+    padding:4px 15px;
+    left:-8px;
+    border:2px solid rgb(18, 175, 236);
+    background-color: rgb(18, 175, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fafafa;
+}
+.button:hover{
+    background-color:#fff;
+    color: rgb(18, 175, 236);;
+}
+
+nav.navbar > div.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+nav.navbar .title {
+    display: flex;
+    color: #2A7485;
+    font-size: 17pt;
+}
+
+nav.navbar .logo img{
+    margin-right: 20px;
+}
+nav.navbar .logo h1{
+    font-family: 'Patua One', cursive;
+}
+
+nav.navbar .navigation a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 25px;
+    color: #2A7485;
+}
+
+nav.navbar .navigation a:hover{
+    background-color:#fff;
+    color: rgb(18, 175, 236);;
+}
+
+.navigation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+article {
+    background-image: url("buku.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98,6%;
+    height: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    font-family: 'Patua One', cursive;
+    font-size: xx-large;
+    font-weight: normal;
+    color: #2A7485;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Patua One', cursive;
+    font-size: x-large;
+    font-weight: normal;
+    color: #2A7485;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Patua One', cursive;
+    font-size: x-large;
+    font-weight: normal;
+    color: #2A7485;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+table {
+    font-size: 15pt;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+menu {
+    font-size: 15pt;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.kotak_biru{
+	background: lightskyblue;
+	color: white;
+	font-size: 15pt;
+	width: 10%;
+	border: none;
+	border-radius: 25px;
+    padding: 15px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+}
+
+.kotak_biru:hover{
+    background-color:#fff;
+    color: rgb(18, 175, 236);;
+}
